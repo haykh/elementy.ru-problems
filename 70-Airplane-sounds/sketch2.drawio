@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e" scale="5" border="0">
+    <diagram id="JiiQVfYdDAbIcXDH_keU" name="Page-1">
+        <mxGraphModel dx="542" dy="322" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="endArrow=classic;html=1;sketch=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="480" as="sourcePoint"/>
+                        <mxPoint x="240" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=classic;html=1;sketch=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="480" as="sourcePoint"/>
+                        <mxPoint x="650" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="частота" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;sketch=1;fontFamily=Neucha;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNeucha;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="210" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="время" style="text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;sketch=1;fontFamily=Neucha;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNeucha;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="480" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="curved=1;endArrow=none;html=1;endFill=0;strokeColor=#666666;sketch=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="270" as="sourcePoint"/>
+                        <mxPoint x="630" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="360" y="270"/>
+                            <mxPoint x="430" y="270"/>
+                            <mxPoint x="470" y="360"/>
+                            <mxPoint x="530" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;strokeColor=#FF2EDC;sketch=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="320" as="sourcePoint"/>
+                        <mxPoint x="450" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=1;strokeColor=#FF2EDC;sketch=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="320" as="sourcePoint"/>
+                        <mxPoint x="450" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="базовая частота" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF2EDC;sketch=1;fontFamily=Neucha;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNeucha;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="310" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="момент пролёта" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF2EDC;sketch=1;fontFamily=Neucha;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNeucha;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="480" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=0;fontColor=#3D445B;rotation=90;flipV=1;size=0.5;sketch=1;sketchStyle=comic;" parent="1" vertex="1">
+                    <mxGeometry x="445" y="220" width="10" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=0;fontColor=#3D445B;rotation=-180;flipV=1;size=0.5;sketch=1;sketchStyle=comic;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="270" width="10" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="$$\sim &lt;br&gt;2h/c_s$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3D445B;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="220" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="$$\sim &lt;br&gt;2v/c_s$$" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3D445B;sketch=1;fontFamily=Neucha;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNeucha;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

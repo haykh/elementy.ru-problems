@@ -1,0 +1,434 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     16530,        424]
+NotebookOptionsPosition[     15448,        382]
+NotebookOutlinePosition[     15804,        398]
+CellTagsIndexPosition[     15761,        395]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"t1", "=", 
+   RowBox[{"-", "0.038"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"t2", "=", 
+   RowBox[{"-", "0.02"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"t3", "=", "0.022"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"t4", "=", "0.039"}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"P", "=", "2.218"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"\[Tau]", "=", 
+  FractionBox[
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"t4", "-", "t3"}], ")"}], "+", 
+    RowBox[{"(", 
+     RowBox[{"t2", "-", "t1"}], ")"}]}], "2"]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"T", "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"t4", "+", "t3"}], "2"], "-", 
+    FractionBox[
+     RowBox[{"t2", "+", "t1"}], "2"]}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"\[Delta]", "=", 
+  RowBox[{"1", "-", "0.9755"}]}], "\[IndentingNewLine]", 
+ RowBox[{"b", "=", 
+  SqrtBox[
+   RowBox[{"1", "-", 
+    RowBox[{
+     FractionBox["T", "\[Tau]"], 
+     SqrtBox["\[Delta]"]}]}]]}], "\[IndentingNewLine]", 
+ RowBox[{
+  FractionBox["P", 
+   RowBox[{"\[Pi]", " ", "T"}]], 
+  SqrtBox[
+   RowBox[{"1", "-", 
+    SuperscriptBox["b", "2"]}]]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.679993655794601*^9, 3.6799938486861877`*^9}, {
+  3.6799938873919992`*^9, 3.679993895807107*^9}, {3.679995714095392*^9, 
+  3.679995717798876*^9}, {3.67999777824201*^9, 3.679997796512648*^9}, {
+  3.679999403415613*^9, 3.679999412069034*^9}}],
+
+Cell[BoxData["0.0175`"], "Output",
+ CellChangeTimes->{{3.679993847091496*^9, 3.679993848992642*^9}, 
+   3.6799938986494017`*^9, 3.679995728895735*^9, {3.67999778106695*^9, 
+   3.679997796941584*^9}, 3.679999170940584*^9, 3.679999412378449*^9, 
+   3.6799994859362373`*^9}],
+
+Cell[BoxData["0.0595`"], "Output",
+ CellChangeTimes->{{3.679993847091496*^9, 3.679993848992642*^9}, 
+   3.6799938986494017`*^9, 3.679995728895735*^9, {3.67999778106695*^9, 
+   3.679997796941584*^9}, 3.679999170940584*^9, 3.679999412378449*^9, 
+   3.6799994859451714`*^9}],
+
+Cell[BoxData["0.024499999999999966`"], "Output",
+ CellChangeTimes->{{3.679993847091496*^9, 3.679993848992642*^9}, 
+   3.6799938986494017`*^9, 3.679995728895735*^9, {3.67999778106695*^9, 
+   3.679997796941584*^9}, 3.679999170940584*^9, 3.679999412378449*^9, 
+   3.679999485951358*^9}],
+
+Cell[BoxData["0.6839706290149091`"], "Output",
+ CellChangeTimes->{{3.679993847091496*^9, 3.679993848992642*^9}, 
+   3.6799938986494017`*^9, 3.679995728895735*^9, {3.67999778106695*^9, 
+   3.679997796941584*^9}, 3.679999170940584*^9, 3.679999412378449*^9, 
+   3.679999485957938*^9}],
+
+Cell[BoxData["8.656168125895013`"], "Output",
+ CellChangeTimes->{{3.679993847091496*^9, 3.679993848992642*^9}, 
+   3.6799938986494017`*^9, 3.679995728895735*^9, {3.67999778106695*^9, 
+   3.679997796941584*^9}, 3.679999170940584*^9, 3.679999412378449*^9, 
+   3.6799994859645357`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{"Sin", "[", 
+   RowBox[{"Pi", " ", 
+    RowBox[{"T0", " ", "/", " ", "P"}]}], "]"}]]], "Input",
+ CellChangeTimes->{{3.6799957104105177`*^9, 3.679995725422625*^9}, 
+   3.679997803504953*^9}],
+
+Cell[BoxData["8.675452240296288`"], "Output",
+ CellChangeTimes->{{3.679995726061214*^9, 3.6799957310467787`*^9}, 
+   3.679997804044794*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["(3pi/G)(1/(2.218 days)^2)(8.66)^3 / sun density", "WolframAlphaLong",
+ CellChangeTimes->{{3.6799956375614443`*^9, 3.679995680098617*^9}, 
+   3.6799958332735567`*^9, {3.679999190008243*^9, 3.679999216631461*^9}, {
+   3.679999500934272*^9, 3.6799995552820797`*^9}, 3.6799995940179567`*^9}],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "(3pi/G)(1/(2.218 days)^2)(8.66)^3 / sun density", Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, Asynchronous -> All, 
+    TimeConstraint -> {30, Automatic, Automatic, Automatic}, 
+    Method -> {
+     "Formats" -> {"cell", "minput", "msound", "dataformats"}, "Server" -> 
+      "http://api.wolframalpha.com/v1/"}}, Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "(3 (Pi/Quantity[1, \"GravitationalConstant\"])) (1/Quantity[2.218, \
+\"Days\"]^2) (8.66^3/Entity[\"Star\", \"Sun\"][\"Density\"])"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             RowBox[{
+               RowBox[{"(", 
+                 TagBox[
+                  RowBox[{"3", 
+                    StyleBox["\[Times]", 
+                    GrayLevel[0.6]], 
+                    TagBox[
+                    FractionBox["\[Pi]", 
+                    StyleBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    StyleBox[
+                    StyleBox["\"G\"", Italic, StripOnInput -> False], 
+                    FontFamily -> "Helvetica", FontSize -> Smaller]}], 
+                    Identity], "  ", 
+                    StyleBox[
+                    
+                    RowBox[{
+                    "\"(\"", "\[NoBreak]", 
+                    "\"Newtonian gravitational constant\"", "\[NoBreak]", 
+                    "\")\""}], {
+                    FontSize -> Smaller, FontFamily -> "Helvetica", 
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False]], 
+                    PolynomialForm[#, TraditionalOrder -> False]& ]}], 
+                  PolynomialForm[#, TraditionalOrder -> False]& ], ")"}], 
+               StyleBox["\[Times]", 
+                GrayLevel[0.6]], 
+               TagBox[
+                FractionBox["1", 
+                 SuperscriptBox[
+                  RowBox[{"(", 
+                    StyleBox[
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{"\"2.218\"", "\[InvisibleSpace]", " ", 
+                    StyleBox[
+                    "\"days\"", {
+                    FontSize -> Smaller, FontFamily -> "Helvetica", 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}], Identity], #& , SyntaxForm -> 
+                    Dot], "Unit", SyntaxForm -> Dot], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0, ZeroWidthTimes -> False], ")"}], "2"]], 
+                PolynomialForm[#, TraditionalOrder -> False]& ], 
+               StyleBox["\[Times]", 
+                GrayLevel[0.6]], 
+               TagBox[
+                FractionBox[
+                 SuperscriptBox["8.66`", "3"], 
+                 FormBox[
+                  TagBox[
+                   GridBox[{{
+                    PaneBox[
+                    StyleBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    TagBox[
+                    TagBox["\"Sun\"", 
+                    $CellContext`TagBoxWrapper[
+                    "Entity" -> {StarData, "Sun"}]], Identity], {
+                    LineIndent -> 0, LineSpacing -> {0.9, 0, 1.5}}], 
+                    "\"mean density\""}}, 
+                    GridBoxBackground -> {"Columns" -> {
+                    GrayLevel[0.949], None}, "Rows" -> {{None}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    ColumnsEqual -> False, RowsEqual -> False, 
+                    GridBoxDividers -> {"Columns" -> {
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84]}, "Rows" -> {{
+                    GrayLevel[0.84]}}, 
+                    "RowsIndexed" -> {
+                    1 -> GrayLevel[0.84], -1 -> GrayLevel[0.84]}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {1, 1, 1}, "Rows" -> {{0.3}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AllowScriptLevelChange -> False, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Separator" -> " | "]], 
+                    LineSpacing -> {1, 0, 1.5}, LineIndent -> 0], 
+                    BaselinePosition -> Center]}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    ColumnsEqual -> False, RowsEqual -> False, 
+                    GridBoxSpacings -> {"Columns" -> {{
+                    AbsoluteThickness[-1]}}, "Rows" -> {{0}}}, 
+                    AllowScriptLevelChange -> False], 
+                   $CellContext`TagBoxWrapper["Separator" -> " | "]], 
+                  TraditionalForm]], 
+                PolynomialForm[#, TraditionalOrder -> False]& ]}], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {}, CellSize -> {550, Automatic}]}], 
+       
+       XMLElement["dataformats", {}, {"plaintext,minput"}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "Result", "scanner" -> "Data", "id" -> "Result", 
+     "position" -> "200", "error" -> "false", "numsubpods" -> "1", "primary" -> 
+     "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             StyleBox[
+              TagBox[
+               TagBox[
+                RowBox[{
+                  TagBox["1.774", 
+                   $CellContext`TagBoxWrapper[
+                   "StringBoxes" -> "1.774"]]}], #& , SyntaxForm -> Dot], 
+               "Unit", SyntaxForm -> Dot], 
+              LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 0, 
+              ZeroWidthTimes -> False], Identity], TraditionalForm]], 
+          "Output", {}, CellSize -> {550, Automatic}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata,\
+quantitydata"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show details", "input" -> "Result__Show details"}, {}]}]}],
+    Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["assumptions", {"count" -> "1"}, {
+      XMLElement[
+      "assumption", {
+       "type" -> "Unit", "word" -> "G", "template" -> 
+        "Assuming ${desc1} for \"${word}\". Use ${desc2} instead", "count" -> 
+        "3"}, {
+        XMLElement[
+        "value", {
+         "name" -> "GravitationalConstant", "desc" -> 
+          "Newtonian gravitational constant", "input" -> 
+          "UnitClash_*G.*GravitationalConstant--"}, {}], 
+        XMLElement[
+        "value", {
+         "name" -> "Gibbs", "desc" -> "Gibbs", "input" -> 
+          "UnitClash_*G.*Gibbs--"}, {}], 
+        XMLElement[
+        "value", {
+         "name" -> "Gauss", "desc" -> "gauss", "input" -> 
+          "UnitClash_*G.*Gauss--"}, {}]}]}], 
+    XMLElement["sources", {"count" -> "1"}, {
+      XMLElement[
+      "source", {
+       "url" -> 
+        "http://www.wolframalpha.com/sources/StarDataSourceInformationNotes.\
+html", "text" -> "Star data"}, {}]}]}, Typeset`initdone$$ = True, 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "2", "datatypes" -> 
+    "Math,Star", "timedout" -> "", "timedoutpods" -> "", "timing" -> "1.887", 
+    "parsetiming" -> "1.318", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa54441h4fdhb3cgidga6900003612715ab973efec", "host" -> 
+    "http://www4b.wolframalpha.com", "server" -> "57", "related" -> 
+    "http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa54451h4fdhb3cgidga6900001i2e5gd7dgb2gb286036121367487377566", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> 4., 
+    "Date" -> {2016, 8, 12, 18, 6, 37.048089`8.321340790353501}, "Line" -> 
+    130, "SessionID" -> 24390922711891961845}, Typeset`showpods$$ = {1, 2}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = False, 
+   Typeset`newq$$ = "(3pi/G)(1/(2.218 days)^2)(8.66)^3 / sun density"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$}, {Typeset`aux1$$, Typeset`aux2$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{639., {113., 119.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$}], Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Print",
+ CellMargins->{{20, 10}, {Inherited, Inherited}},
+ CellChangeTimes->{3.679999597061822*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "/", 
+  SqrtBox["\[Delta]"]}]], "Input",
+ CellChangeTimes->{{3.679993869160996*^9, 3.679993871246654*^9}}],
+
+Cell[BoxData["6.388765649999404`"], "Output",
+ CellChangeTimes->{3.6799938715706053`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ SqrtBox[
+  RowBox[{"1", "-"}]]], "Input",
+ CellChangeTimes->{{3.679993884982535*^9, 3.679993885415019*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\[Tau]"], "Input",
+ CellChangeTimes->{{3.679993750156929*^9, 3.679993750361577*^9}}],
+
+Cell[BoxData["0.0175`"], "Output",
+ CellChangeTimes->{3.679993750592359*^9, 3.679993837822139*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["T"], "Input",
+ CellChangeTimes->{{3.6799937509186363`*^9, 3.679993752787064*^9}}],
+
+Cell[BoxData["0.0595`"], "Output",
+ CellChangeTimes->{3.679993753096685*^9}]
+}, Open  ]]
+},
+WindowSize->{706, 448},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1546, 47, 329, "Input"],
+Cell[2129, 71, 271, 4, 28, "Output"],
+Cell[2403, 77, 271, 4, 28, "Output"],
+Cell[2677, 83, 283, 4, 28, "Output"],
+Cell[2963, 89, 281, 4, 28, "Output"],
+Cell[3247, 95, 282, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3566, 104, 232, 6, 51, "Input"],
+Cell[3801, 112, 139, 2, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3977, 119, 293, 3, 75, "WolframAlphaLong"],
+Cell[4273, 124, 10324, 221, 242, "Print"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14634, 350, 134, 3, 40, "Input"],
+Cell[14771, 355, 89, 1, 28, "Output"]
+}, Open  ]],
+Cell[14875, 359, 122, 3, 34, "Input"],
+Cell[CellGroupData[{
+Cell[15022, 366, 98, 1, 28, "Input"],
+Cell[15123, 369, 98, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15258, 375, 95, 1, 28, "Input"],
+Cell[15356, 378, 76, 1, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
