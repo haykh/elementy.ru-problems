@@ -1,0 +1,21 @@
+((* extends 'latex/index.tex.j2' *))
+
+((* block maketitle *))
+((* endblock maketitle *))
+
+((* block packages *))
+((( super() )))
+\usepackage[document]{ragged2e}
+\ifPDFTeX
+\else
+    \setmainfont{Literaturnaya}
+    \setsansfont{IBM Plex Sans}
+    \setmonofont{Cascadia Code}
+    \setmathfont{latinmodern-math.otf}
+\fi
+((* endblock packages *))
+
+((* block commands *))
+((( super() )))
+\setcounter{secnumdepth}{0}
+((* endblock commands *))
